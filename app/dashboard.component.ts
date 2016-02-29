@@ -17,6 +17,8 @@ export class DashboardComponent implements OnInit {
             .then(heroes => this.heroes = heroes.slice(1,5));
     }
 
+    // TOTO: Fix this currently broken code.
+    // Up to here: https://angular.io/docs/ts/latest/tutorial/toh-pt5.html#!#select-a-dashboard-hero
     gotoDetail(hero: Hero) {
         let link = ['HeroDetail', { id: hero.id }];
         this._router.navigate(link);
