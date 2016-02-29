@@ -1,0 +1,5 @@
+# Ignore generated files
+*.js
+*.map
+node_modules/
+typings/
